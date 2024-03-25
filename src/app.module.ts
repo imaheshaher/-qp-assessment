@@ -17,7 +17,7 @@ import { OrderItem } from './grocery/entities/ordered-item.entity';
     TypeOrmModule.forRoot({
       type: 'postgres',
       host: 'db',
-      port: 5436,
+      port: 5432,
       username: 'postgres',
       password: 'root',
       database: 'inventory',
